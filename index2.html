@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn how to build a semantic, accessible, and SEO-friendly HTML5 web page. Ideal for beginners and web development learners." />
+  <meta name="keywords" content="HTML5, semantic tags, accessibility, SEO, web development, beginner project" />
+  <meta name="author" content="Cynthia" />
+  <title>Semantic HTML5 Web Page for Accessibility & SEO</title>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>Semantic HTML5 Web Page</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>This page demonstrates how to use semantic HTML5 elements to create a well-structured, accessible, and SEO-optimized web page. It is designed for beginners learning web development fundamentals.</p>
+    </section>
+
+    <section id="benefits" aria-labelledby="benefits-heading">
+      <h2 id="benefits-heading">Benefits of Semantic HTML</h2>
+      <article aria-labelledby="structure-heading">
+        <h3 id="structure-heading">Improved Structure</h3>
+        <p>Semantic tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> provide clear meaning to the content, making it easier for both users and search engines to understand the layout.</p>
+      </article>
+      <article aria-labelledby="seo-heading">
+        <h3 id="seo-heading">Better SEO</h3>
+        <p>Search engines prioritize content that is well-organized and uses proper heading hierarchy. Semantic HTML helps crawlers index your content more effectively.</p>
+      </article>
+    </section>
+
+    <section id="accessibility" aria-labelledby="accessibility-heading">
+      <h2 id="accessibility-heading">Accessibility Features</h2>
+      <p>Using ARIA roles, descriptive headings, and proper landmarks ensures that screen readers and other assistive technologies can navigate the page efficiently.</p>
+      <p>For example, the <code>role="main"</code> attribute identifies the primary content area, while <code>aria-label</code> improves navigation clarity.</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Information</h2>
+      <address>
+        Email: <a href="mailto:cynthia@example.com">cynthia@example.com</a><br />
+        Location: Kisii County, Kenya
+      </address>
+    </section>
+    <p>&copy; 2025 Cynthia. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
